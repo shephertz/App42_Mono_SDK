@@ -4,6 +4,7 @@ App42_Mono_SDK
 App42 Cloud API Client SDK files for Mono platform
 
 [Download the latest App42 MonoTouch SDK] (https://github.com/shephertz/App42_J2ME_SDK/raw/master/0.8.4/app42_j2me_beta_0.8.4.zip)
+
 [Download the latest App42 MonoDroid SDK] (https://github.com/shephertz/App42_J2ME_SDK/raw/master/0.8.4/app42_j2me_beta_0.8.4.zip)
 
 [Documentation and API guide] (http://api.shephertz.com/cloudapidocs/index.php)
@@ -12,9 +13,8 @@ Third Party binaries and respective licenses used in App42 SDK are listed below
 
 =============
 JSON.NET
-http://json.codeplex.com
 =============
-
+http://json.codeplex.com
 The MIT License (MIT)
 Copyright (c) 2007 James Newton-King
 
