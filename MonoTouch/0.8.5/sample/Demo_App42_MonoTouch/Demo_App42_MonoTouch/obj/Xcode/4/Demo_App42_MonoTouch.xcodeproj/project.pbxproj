@@ -1,0 +1,218 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DB1EA000000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 996EC2800000000000000000 /* UIKit.framework */; };
+		2A7B60800000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463839000000000000000000 /* MapKit.framework */; };
+		D744D7000000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F301AF800000000000000000 /* Foundation.framework */; };
+		840E4D800000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB87FE800000000000000000 /* CoreGraphics.framework */; };
+		7CA759000000000000000000 /* Demo_App42_MonoTouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 986431800000000000000000 /* Demo_App42_MonoTouchViewController.xib */; };
+		DB3F70000000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 60EA80800000000000000000 /* AppDelegate.h */; };
+		6746E4000000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC095000000000000000000 /* AppDelegate.m */; };
+		2FCD33000000000000000000 /* Demo_App42_MonoTouchViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 4B8A0B800000000000000000 /* Demo_App42_MonoTouchViewController.h */; };
+		896020000000000000000000 /* Demo_App42_MonoTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A51CF8800000000000000000 /* Demo_App42_MonoTouchViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		862248000000000000000000 /* Demo_App42_MonoTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Demo_App42_MonoTouch.app"; path = "Demo_App42_MonoTouch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		996EC2800000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		463839000000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		F301AF800000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		BB87FE800000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		986431800000000000000000 /* Demo_App42_MonoTouchViewController.xib */ = {isa = PBXFileReference; name = "Demo_App42_MonoTouchViewController.xib"; path = "Demo_App42_MonoTouchViewController.xib"; sourceTree = "<group>"; };
+		60EA80800000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		9EC095000000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		4B8A0B800000000000000000 /* Demo_App42_MonoTouchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Demo_App42_MonoTouchViewController.h"; path = "Demo_App42_MonoTouchViewController.h"; sourceTree = "<group>"; };
+		A51CF8800000000000000000 /* Demo_App42_MonoTouchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Demo_App42_MonoTouchViewController.m"; path = "Demo_App42_MonoTouchViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775586800000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB1EA000000000000000000 /* UIKit.framework in Frameworks */,
+				2A7B60800000000000000000 /* MapKit.framework in Frameworks */,
+				D744D7000000000000000000 /* Foundation.framework in Frameworks */,
+				840E4D800000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69CBDDC00000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				C35ECAC00000000000000000 /* Demo_App42_MonoTouch */,
+				BD0267400000000000000000 /* Frameworks */,
+				169554400000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		169554400000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				862248000000000000000000 /* Demo_App42_MonoTouch.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		BD0267400000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				996EC2800000000000000000 /* UIKit.framework */,
+				463839000000000000000000 /* MapKit.framework */,
+				F301AF800000000000000000 /* Foundation.framework */,
+				BB87FE800000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		C35ECAC00000000000000000 /* Demo_App42_MonoTouch */ = {
+			isa = PBXGroup;
+			children = (
+				60EA80800000000000000000 /* AppDelegate.h */,
+				4B8A0B800000000000000000 /* Demo_App42_MonoTouchViewController.h */,
+				986431800000000000000000 /* Demo_App42_MonoTouchViewController.xib */,
+				5FBBCC800000000000000000 /* Supporting Files */,
+			);
+			name = "Demo_App42_MonoTouch";
+			sourceTree = "<group>";
+		};
+		5FBBCC800000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EC095000000000000000000 /* AppDelegate.m */,
+				A51CF8800000000000000000 /* Demo_App42_MonoTouchViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		267C4D000000000000000000 /* Demo_App42_MonoTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCE960000000000000000000 /* Build configuration list for PBXNativeTarget "Demo_App42_MonoTouch" */;
+			buildPhases = (
+				241EFD000000000000000000 /* Sources */,
+				775586800000000000000000 /* Frameworks */,
+				5B98AE000000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo_App42_MonoTouch";
+			productName = "Demo_App42_MonoTouch";
+			productReference = 862248000000000000000000 /* Demo_App42_MonoTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6ECD0000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 79B2D6800000000000000000 /* Build configuration list for PBXProject "Demo_App42_MonoTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 69CBDDC00000000000000000;
+			productRefGroup = 169554400000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				267C4D000000000000000000 /* Demo_App42_MonoTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B98AE000000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA759000000000000000000 /* Demo_App42_MonoTouchViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		241EFD000000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3F70000000000000000000 /* AppDelegate.h in Sources */,
+				6746E4000000000000000000 /* AppDelegate.m in Sources */,
+				2FCD33000000000000000000 /* Demo_App42_MonoTouchViewController.h in Sources */,
+				896020000000000000000000 /* Demo_App42_MonoTouchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B52B9B000000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		ECA54C000000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "Demo_App42_MonoTouch";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79B2D6800000000000000000 /* Build configuration list for PBXProject "Demo_App42_MonoTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B52B9B000000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		CCE960000000000000000000 /* Build configuration list for PBXNativeTarget "Demo_App42_MonoTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA54C000000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6ECD0000000000000000000 /* Project object */;
+}
