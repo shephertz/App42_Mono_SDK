@@ -1,1 +1,0 @@
-TestApp42Mono.Activity1;testapp42mono.Activity1

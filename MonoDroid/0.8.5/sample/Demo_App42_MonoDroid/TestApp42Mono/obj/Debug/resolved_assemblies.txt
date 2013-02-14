@@ -1,3 +1,0 @@
-D:\work\dev\GitProjects\App42_Mono_SDK\MonoDroid\0.8.5\sample\Demo_App42_MonoDroid\TestApp42Mono\bin\Debug\TestApp42Mono.dll
-D:\work\dev\GitProjects\App42_Mono_SDK\MonoDroid\0.8.5\sample\Demo_App42_MonoDroid\TestApp42Mono\bin\Debug\App42_MonoDroid_API_0.8.5.dll
-D:\work\dev\GitProjects\App42_Mono_SDK\MonoDroid\0.8.5\sample\Demo_App42_MonoDroid\TestApp42Mono\bin\Debug\Newtonsoft.Json.MonoDroid.dll
