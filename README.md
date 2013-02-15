@@ -24,7 +24,7 @@ Download the zip file from this repo and unzip the contents.
 
 Open your application's solution
 
-Add references to the unzipped dlls i.e. App42_MonoDroid_API_0.x.x.dll and Newtonsoft.Json.MonoDroid.dll
+Add references to the unzipped dlls i.e. App42_MonoDroid_API_0.x.x.dll/App42_MonoTouch_SDK_0.x.x.dll and Newtonsoft.Json.MonoDroid.dll/Newtonsoft.Json.MonoTouch.dll
 
 You can now add references to App42 APIs and start using it in your application!
 
