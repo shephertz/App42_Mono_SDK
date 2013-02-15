@@ -3,9 +3,9 @@ App42_Mono_SDK
 
 App42 Cloud API Client SDK files for Mono platform
 
-[Download the latest App42 MonoTouch SDK] (https://github.com/shephertz/App42_J2ME_SDK/raw/master/0.8.4/app42_j2me_beta_0.8.4.zip)
+[Download the latest App42 MonoTouch SDK] (https://github.com/shephertz/App42_Mono_SDK/raw/master/MonoTouch/0.8.5/App42_MONOTouch_SDK_0.8.5.zip)
 
-[Download the latest App42 MonoDroid SDK] (https://github.com/shephertz/App42_J2ME_SDK/raw/master/0.8.4/app42_j2me_beta_0.8.4.zip)
+[Download the latest App42 MonoDroid SDK] (https://github.com/shephertz/App42_Mono_SDK/raw/master/MonoDroid/0.8.5/App42_MonoDroid_SDK_0.8.5.zip)
 
 [Documentation and API guide] (http://api.shephertz.com/cloudapidocs/index.php)
 
@@ -15,9 +15,8 @@ Pre-requisites
 
 This assumes that you have setup your MonoDevelop IDE for the platform that you are trying to build for (iOS/Android etc). If you haven't done that, you can get started on that by visiting http://docs.xamarin.com/
 
-============================================================
-Steps for integrating App42 APIs in to your MonoDroid project
-=============================================================
+
+#### Steps for integrating App42 APIs in to your MonoDroid project #####
 
 The steps are quite straight forward
 
@@ -29,7 +28,8 @@ Add references to the unzipped dlls i.e. App42_MonoDroid_API_0.x.x.dll and Newto
 
 You can now add references to App42 APIs and start using it in your application!
 
-This Repository Also contains
+#### This Repository Also contains ######
+
 ======================
 App42 MonoDroid Sample
 ======================
