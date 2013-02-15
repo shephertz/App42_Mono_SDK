@@ -41,15 +41,12 @@ App42 MonoTouch Sample
 ======================
 MonoTouch sample contains an activity which creates game and save user score in App42 Cloud.
 
+======================================
+Third Party binaries and licenses used
+======================================
 
-###################################################
-Third Party binaries and licenses used in App42 SDKs
-###################################################
-
-=============
-JSON.NET
-=============
-http://json.codeplex.com
+##### JSON.NET ######
+(http://json.codeplex.com)
 The MIT License (MIT)
 Copyright (c) 2007 James Newton-King
 
