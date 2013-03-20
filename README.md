@@ -3,9 +3,9 @@ App42_Mono_SDK
 
 App42 Cloud API Client SDK files for Mono platform
 
-[Download the latest App42 MonoTouch SDK] (https://github.com/shephertz/App42_Mono_SDK/raw/master/MonoTouch/0.8.5/App42_MONOTouch_SDK_0.8.5.zip)
+[Download the latest App42 MonoTouch SDK] (https://github.com/shephertz/App42_Mono_SDK/blob/master/MonoTouch/0.8.6/App42_MONOTouch_SDK_0.8.6.zip)
 
-[Download the latest App42 MonoDroid SDK] (https://github.com/shephertz/App42_Mono_SDK/raw/master/MonoDroid/0.8.5/App42_MonoDroid_SDK_0.8.5.zip)
+[Download the latest App42 MonoDroid SDK] (https://github.com/shephertz/App42_Mono_SDK/blob/master/MonoDroid/0.8.6/App42_MonoDroid_SDK_0.8.6.zip)
 
 [Documentation and API guide] (http://api.shephertz.com/cloudapidocs/index.php)
 
