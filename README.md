@@ -1,4 +1,4 @@
-App42_MONODROID_SDK
+App42_BPaaS_MONODROID_SDK
 ================
 
 App42 BPaaS Cloud API Client SDK files for MONODROID
