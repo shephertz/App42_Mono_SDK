@@ -1,0 +1,6 @@
+G:\App42-Xamarin-SDK\App42-Xamarin-SDK\App42-Xamarin-SDK\bin\Release\App42-Xamarin-SDK.dll
+G:\App42-Xamarin-SDK\App42-Xamarin-SDK\App42-Xamarin-SDK\bin\Release\App42-Xamarin-SDK.pdb
+G:\App42-Xamarin-SDK\App42-Xamarin-SDK\App42-Xamarin-SDK\bin\Release\Newtonsoft.Json.dll
+G:\App42-Xamarin-SDK\App42-Xamarin-SDK\App42-Xamarin-SDK\obj\Release\App42-Xamarin-SDK.csprojResolveAssemblyReference.cache
+G:\App42-Xamarin-SDK\App42-Xamarin-SDK\App42-Xamarin-SDK\obj\Release\App42-Xamarin-SDK.dll
+G:\App42-Xamarin-SDK\App42-Xamarin-SDK\App42-Xamarin-SDK\obj\Release\App42-Xamarin-SDK.pdb
