@@ -108,7 +108,7 @@ namespace com.shephertz.app42.paas.sdk.csharp.email
                 this.ssl = ssl;
             }
 
-            public String ToString()
+            public override String ToString()
             {
                 return "Email : " + emailId + " : Host  : " + host + " : port : " + port + " : ssl : " + ssl;
             }

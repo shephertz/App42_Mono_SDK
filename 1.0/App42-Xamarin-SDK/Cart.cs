@@ -194,7 +194,7 @@ namespace com.shephertz.app42.paas.sdk.csharp.shopping
                 this.totalAmount = totalAmount;
             }
 
-            public String ToString()
+            public override String ToString()
             {
                 return " name : " + name + " : itemId : " + itemId
                         + " : price : " + price + " : quantity : " + quantity;

@@ -115,7 +115,7 @@ namespace com.shephertz.app42.paas.sdk.csharp.storage
             /// Returns the Storage Response in JSON format.
             /// </summary>
             /// <returns>The response in JSON format.</returns>
-            public String ToString()
+            public override String ToString()
             {
                 if (this.docId != null && this.jsonDoc != null)
                     return this.docId + " : " + this.jsonDoc;

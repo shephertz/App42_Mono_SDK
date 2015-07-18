@@ -32,6 +32,7 @@ namespace com.shephertz.app42.paas.sdk.csharp.pushNotification
         {
             this.deviceToken = deviceToken;
         }
+        #warning this one hides .net default method .GetType()!
         public String GetType()
         {
             return type;

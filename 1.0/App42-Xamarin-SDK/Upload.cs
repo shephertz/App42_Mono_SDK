@@ -78,6 +78,8 @@ namespace com.shephertz.app42.paas.sdk.csharp.upload
             {
                 this.userName = userName;
             }
+
+            #warning this one hides .net default method .GetType()!
             /// <summary>
             /// Returns the type of the Upload File.
             /// </summary>

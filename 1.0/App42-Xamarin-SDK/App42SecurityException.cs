@@ -37,7 +37,7 @@ namespace com.shephertz.app42.paas.sdk.csharp
         /// <summary>
         /// Gets the HttpErrorCode for the Exception e.g. 404, 500, 401 etc.
         /// </summary>
-		public int GetHttpErrorCode()
+        public override int GetHttpErrorCode()
         {
             return this.httpErrorCode;
         }
@@ -49,7 +49,7 @@ namespace com.shephertz.app42.paas.sdk.csharp
         /// This error code can help App developers to take decisions and take action
         /// when a particular error occurs for a service
         /// </param>
-        public void SetAppErrorCode(int appErrorCode)
+        public override void SetAppErrorCode(int appErrorCode)
         {
             this.appErrorCode = appErrorCode;
         }
@@ -58,7 +58,7 @@ namespace com.shephertz.app42.paas.sdk.csharp
         ///  This error code can help App developers to take decisions and take action
         ///  when a particular error occurs for a service 
         /// </summary>
-        public int GetAppErrorCode()
+        public override int GetAppErrorCode()
         {
             return this.appErrorCode;
         }
