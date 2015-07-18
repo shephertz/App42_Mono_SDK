@@ -214,7 +214,7 @@ namespace com.shephertz.app42.paas.sdk.csharp.gallery
             /// Returns the Album Response in JSON format.
             /// </summary>
             /// <returns>The response in JSON format.</returns>
-            public String ToString()
+            public override String ToString()
             {
                 return " name : " + name + " : description : " + description + " : url : " + url + " : tinyUrl : " + tinyUrl + " : thumbNailUrl : " + thumbNailUrl + " :  thumbNailTinyUrl  : " + thumbNailTinyUrl + " : tagList : " + tagList;
             }

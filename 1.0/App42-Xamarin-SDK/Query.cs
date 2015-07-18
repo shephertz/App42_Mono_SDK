@@ -60,7 +60,7 @@ namespace com.shephertz.app42.paas.sdk.csharp.storage
                 return jsonArray.ToString();
             }
         }
-
+        #warning this one hides .net default method .GetType()!
         public Object GetType()
         {
             if (jsonObject != null)

@@ -84,7 +84,7 @@ namespace com.shephertz.app42.paas.sdk.csharp.shopping
                 this.itemList = itemList;
             }
 
-            public String ToString()
+            public override String ToString()
             {
                 return " name : " + name + " : description : " + description;
             }
@@ -152,7 +152,7 @@ namespace com.shephertz.app42.paas.sdk.csharp.shopping
                     this.price = price;
                 }
 
-                public String ToString()
+                public override String ToString()
                 {
                     return " itemId : " + itemId + " : name : " + name
                             + " : description : " + description + " : url : " + url + " : price : " + price;

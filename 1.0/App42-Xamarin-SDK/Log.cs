@@ -36,6 +36,7 @@ namespace com.shephertz.app42.paas.sdk.csharp.log
             {
                 this.message = message;
             }
+            #warning this one hides .net default method .GetType()!
             public String GetType()
             {
                 return type;
@@ -60,7 +61,7 @@ namespace com.shephertz.app42.paas.sdk.csharp.log
             {
                 this.module = appModule;
             }
-            public String ToString()
+            public override String ToString()
             {
                 return "Message : " + this.message + " : type : " + this.type + " : AppModule : " + this.module + " : logTime : " + this.logTime;
             }

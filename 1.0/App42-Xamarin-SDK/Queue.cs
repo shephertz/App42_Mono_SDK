@@ -78,7 +78,7 @@ namespace com.shephertz.app42.paas.sdk.csharp.message
                 this.messageId = messageId;
             }
 
-            public String ToString()
+            public override String ToString()
             {
                 return " correlationId : " + correlationId + " : payLoad : " + payLoad + " : messageId : " + messageId;
             }

@@ -26,7 +26,7 @@ namespace com.shephertz.app42.paas.sdk.csharp
         /// Sets the HttpErrorCode for the Exception
         /// </summary>
         /// <param name="httpErrorCode"> httpErrorCode The http error code e.g. 404, 500, 401 etc.</param>
-        public void SetHttpErrorCode(int    httpErrorCode)
+        public virtual void SetHttpErrorCode(int    httpErrorCode)
         {
             this.httpErrorCode = httpErrorCode;
         }
@@ -35,7 +35,7 @@ namespace com.shephertz.app42.paas.sdk.csharp
         /// </summary>
         /// <returns></returns>
      
-        public int    GetHttpErrorCode()
+        public virtual int GetHttpErrorCode()
         {
             return this.httpErrorCode;
         }
@@ -48,7 +48,7 @@ namespace com.shephertz.app42.paas.sdk.csharp
          /// when a particular error occurs for a service
          /// </param>
          
-        public void SetAppErrorCode(int    appErrorCode)
+        public virtual void SetAppErrorCode(int    appErrorCode)
         {
             this.appErrorCode = appErrorCode;
         }
@@ -59,7 +59,7 @@ namespace com.shephertz.app42.paas.sdk.csharp
         /// </summary>
         /// <returns></returns>
           
-        public int    GetAppErrorCode()
+        public virtual int GetAppErrorCode()
         {
             return this.appErrorCode;
         }

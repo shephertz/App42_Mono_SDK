@@ -70,7 +70,7 @@ namespace com.shephertz.app42.paas.sdk.csharp.recommend
                 this.value = value;
             }
 
-            public String ToString()
+            public override String ToString()
             {
                 return "userId : " + this.userId + ": item : " + this.item + " : value : " + this.value;
             }

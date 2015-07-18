@@ -110,7 +110,7 @@ namespace com.shephertz.app42.paas.sdk.csharp.geo
                 this.marker = marker;
             }
 
-            public String ToString()
+            public override String ToString()
             {
                 return "Lat : " + lat + " : Lang : " + lng + " : Marker : " + marker;
             }
