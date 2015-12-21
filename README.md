@@ -7,7 +7,7 @@ App42_CSHARP_SDK_Xamarin
 
 __Download And Set Up SDK :-__
 
-1). [Download] (https://github.com/shephertz/App42_CSHARP_SDK/archive/master.zip) CSHARP SDK (Ignore if you have already downloaded our SDK)
+1). [Download] (https://github.com/shephertz/App42_Mono_SDK/archive/master.zip) Xamarin SDK (Ignore if you have already downloaded our SDK)
 
 2). Unzip the downloaded Zip file. Unzipped folder contains version folders of dll and a sample folder.
 
