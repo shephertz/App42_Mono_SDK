@@ -1,23 +1,40 @@
-App42_Mono_SDK
-==============
+App42_CSHARP_SDK_Xamarin
+================
 
-App42 Cloud API Client SDK files for Mono platform
+1. [Register] (https://apphq.shephertz.com/register) with App42 platform.
+2. Create an app once you are on Quick start page after registration.
+3. If you are already registered, login to [AppHQ] (http://apphq.shephertz.com/register/app42Login) console and create an app from App Manager Tab.
 
-[Download the latest App42 Mono SDK] (https://github.com/shephertz/App42_Mono_SDK/archive/master.zip)
+__Download And Set Up SDK :-__
 
-[Dev Centre] (http://api.shephertz.com/app42-dev.php)
+1). [Download] (https://github.com/shephertz/App42_CSHARP_SDK/archive/master.zip) CSHARP SDK (Ignore if you have already downloaded our SDK)
 
-======================================
-Third Party binaries and licenses used
-======================================
+2). Unzip the downloaded Zip file. Unzipped folder contains version folders of dll and a sample folder.
 
-##### JSON.NET ######
-(http://json.codeplex.com)
-The MIT License (MIT)
-Copyright (c) 2007 James Newton-King
+3). Version folder (i.e __0.0__, __0.1__ etc) will contain __App42_CSHARP_SDK_x.x.x.dll__.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+4). Then add __App42_CSHARP_SDK_x.x.x.dll__ in References of your Xamarin project by following below steps.
+  
+    (1) Right Click on References folder in your project.
+	(2) Click on Edit References.
+	(3) Select .Net Assembly from above tabs.
+	(4) Click on browse button below, and select __App42_CSHARP_SDK_x.x.x.dll__ from your file system.
+	(5) Then click OK and rebuild your project.
+	
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+__Initializing SDK :-__
+You have to instantiate App42API by putting your ApiKey/SecretKey to initialize the SDK.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
+App42API.Initialize("YOUR_API_KEY","YOUR_SECRET_KEY"); 
+```
+
+__Using App42 Services :-__
+ You have to build target service that you want to use in your app. For example, User Service can be build with following snippet. Similarly you can build other service also with same notation.
+ 
+```
+UserService userService = App42API.BuildUserService();
+//Similarly you can build other services like App42API.BuildXXXXService()
+```
+
+[Documentation and API guide] (http://api.shephertz.com/app42-dev/csharp-backend-apis.php)
